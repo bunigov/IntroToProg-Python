@@ -40,9 +40,11 @@ for row in lstTable:
     print(row["Id"] + "," + row["Task"] + "," + row["Priority"])
 objFile.close()
 
-    # -- Input/Output -- #
-    # Step 2 - Display a menu of choices to the user
+    
+   
 while (True):
+    # -- Input/Output -- #
+     # Step 2 - Display a menu of choices to the user
     print("""
     Menu of Options
     1) Show current data
