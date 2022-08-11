@@ -11,6 +11,7 @@
 
 from random import randint, randrange
 
+#  ---- RUN ONCE  ------  #
 # -- Data -- #
 # declare variables and constants
 strFile = "ToDoList.txt"   # An object that represents a file
@@ -20,7 +21,6 @@ lstTable = []  # A list that acts as a 'table' of rows
 strMenu = ""   # A menu of user options
 strChoice = "" # A Capture the user option selection
 
-# Runs Once
 # -- Processing -- #
 # Step 1 - When the program starts, load any data you have
 # in a text file called ToDoList.txt into a python list of dictionaries rows (like Lab 5-2)
@@ -40,7 +40,7 @@ for row in lstTable:
     print(row["Id"] + "," + row["Task"] + "," + row["Priority"])
 objFile.close()
 
-# Runs Until Stopped
+#  ---- RUN UNTIL STOPPED  ------  #
 while (True):
     # -- Input/Output -- #
      # Step 2 - Display a menu of choices to the user
